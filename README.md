@@ -39,11 +39,11 @@ To Install this toolbox: (Scilab-4.0 or higher)
 We Suppose here that <PATH> stands for the path to the directory
 containing this README file.
 
-1- Execute only once the following instruction within Scilab:
-    `exec <PATH>/updater.sce`
-2- Execute only once the following instruction within Scilab:
+1. Execute only once the following instruction within Scilab:
+   `exec <PATH>/updater.sce`
+2. Execute only once the following instruction within Scilab:
     `exec <PATH>/builder.sce`
-3- Each times Scilab is launched, execute within Scilab:
+3. Each times Scilab is launched, execute within Scilab:
     exec <PATH>/loader.sce
     It is better to execute loader.sce from the .scilab startup
     file for automatic loading. This file should be in
