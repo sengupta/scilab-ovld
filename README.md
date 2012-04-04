@@ -14,15 +14,15 @@ Short description
 
 Basically
 
-   foo(arg1,arg2,.....)
+    foo(arg1,arg2,.....)
 
 is replaced automatically by
 
-   %typ_foo(arg1,arg2,.....)
+    %typ_foo(arg1,arg2,.....)
 
 if `arg1` is an `mlist` s.t. `typeof(arg1) = 'typ'` otherwise it is
 
-   %old_foo(arg1,arg2,.....)
+    %old_foo(arg1,arg2,.....)
 
 which is invoked (`%old_foo` is a copy of the pre-existing function `foo`)
 
