@@ -1,5 +1,5 @@
-                Scilab module for overloading functions
-                =======================================
+Scilab module for overloading functions
+=======================================
 
 Scilab module for overloading functions when the first input argument
 of a function is an object (more precisely an mlist).
